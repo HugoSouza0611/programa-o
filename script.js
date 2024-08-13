@@ -31,4 +31,17 @@ const perguntas = [
     }
 
 ]
+{  enunciado: "No âmbito tecnológico, você prefere:"
+alternativas: [
+
+}
+
+{ texto: "Alternativa 5",
+afirmação: "afirmação",
+
+} { texto: "alternativa 6",
+afirmação: "afirmação",
+}
+
+]
 

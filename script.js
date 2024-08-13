@@ -8,7 +8,6 @@ const perguntas = [
     {
         enunciado: "No âmbito social, você prefere:",
         alternativas: [
-
             {
                 texto: "Alternativa 1",
                 afirmação: "afirmação",
@@ -23,7 +22,6 @@ const perguntas = [
     {
         enunciado: "No âmbito ambiental, você prefere:",
         alternativas: [
-
             {
                 texto: "Alternativa ",
                 afirmação: "afirmação",

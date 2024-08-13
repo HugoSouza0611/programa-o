@@ -38,11 +38,11 @@ const perguntas = [
         alternativas: [
 
             {
-                texto: "Alternativa 5",
+                texto: "Criar uma nova tecnologia, porém não será reconhecido.",
                 afirmação: "afirmação",
             },
             {
-                texto: "Alternativa 6",
+                texto: "Viver com a mesma tecnologia para sempre.",
                 afirmação: "afirmação",
 
             },

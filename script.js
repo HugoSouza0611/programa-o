@@ -23,11 +23,11 @@ const perguntas = [
         enunciado: "No âmbito ambiental, você prefere:",
         alternativas: [
             {
-                texto: "Alternativa ",
+                texto: "Trazer uma espécie extinta, porém outra terá que ser extinta no lugar. ",
                 afirmação: "afirmação",
             },
             {
-                texto: "Alternativa 4",
+                texto: "Salvar o meio ambiente mas perder alguém da sua família.",
                 afirmação: "afirmação",
 
             },

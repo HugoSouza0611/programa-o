@@ -16,7 +16,7 @@ const perguntas = [
         { texto: "Alternativa 2",
         afirmação: "afirmação",
 
-    }
+    },
 ]
         {  enunciado: "No âmbito ambietal, você prefere:"
         alternativas: [
@@ -28,7 +28,7 @@ const perguntas = [
 
     } { texto: "alternativa 4",
         afirmação: "afirmação",
-    }
+    },
 
 ]
 {  enunciado: "No âmbito tecnológico, você prefere:"
@@ -41,7 +41,14 @@ afirmação: "afirmação",
 
 } { texto: "alternativa 6",
 afirmação: "afirmação",
-}
-
+]
+},
 ]
 
+let atual= 0
+let perguntaAtual;
+function mostraPerguntas(){
+    perguntaAtual= perguntas[atual];
+    caixaPerguntas.textContent= perguntaAtual.enunciado;
+}
+mostraPerguntas();

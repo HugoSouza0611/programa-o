@@ -25,7 +25,7 @@ const perguntas = [
         alternativas: [
 
             {
-                texto: "Alternativa 3",
+                texto: "Alternativa ",
                 afirmação: "afirmação",
             },
             {

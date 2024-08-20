@@ -78,7 +78,7 @@ function respostaSelecionada(pergunta) {
     mostraPerguntas();
 }
 
-function mostraPerguntas(){
+function mostraResultado(){
     caixaPerguntas.textContent = "Você tirou a fome da somália, porem ainda temos diversos paises em situações piores";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";

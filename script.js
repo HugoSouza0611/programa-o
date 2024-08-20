@@ -55,18 +55,22 @@ let perguntaAtual;
 function mostraPerguntas() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent= "";
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
-function mostraAlternativas (){
-    for( const Alternativa of  perguntaAtual.alternativas){ 
-        const botaoAlternativa=document.createElement( "button");
-        botaoAlternativa.textContent=Alternativa.texto;
-        botaoAlternativa.addEventListener("click", function() {
-            atual++;
-            mostraPerguntas();
-        })
+function mostraAlternativas() {
+    for (const Alternativa of perguntaAtual.alternativas) {
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = Alternativa.texto;
+        botaoAlternativa.addEventListener("click", () => respostaSelecionada(pergunta));
         caixaAlternativas.appendChild(botaoAlternativa);
     }
+}
+
+function respostaSelecionada(pergunta) {
+    const afirmacoes = pergunta.afirmação;
+    atual++;
+    mostraPerguntas();
+
 }
 mostraPerguntas();

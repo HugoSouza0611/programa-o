@@ -84,4 +84,4 @@ function mostraPerguntas() {
     caixaAlternativas.textContent = " ";
 }
 
-mostraPerguntas ()
+mostraPerguntas()

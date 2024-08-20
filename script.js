@@ -83,3 +83,5 @@ function mostraPerguntas() {
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
 }
+
+mostraPerguntas ()

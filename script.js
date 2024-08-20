@@ -53,6 +53,10 @@ const perguntas = [
 let atual = 0
 let perguntaAtual;
 function mostraPerguntas() {
+    if(atual <= perguntas.length){
+        mostraResultado();
+        return;
+    }
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
@@ -69,8 +73,13 @@ function mostraAlternativas() {
 
 function respostaSelecionada(pergunta) {
     const afirmacoes = pergunta.afirmação;
+    historiaFinal += afirmacoes +" "
     atual++;
     mostraPerguntas();
-
 }
-mostraPerguntas();
+
+function mostraPerguntas(){
+    caixaPerguntas.textContent = "Você tirou a fome da somália, porem ainda temos diversos paises em situações piores";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = " ";
+}

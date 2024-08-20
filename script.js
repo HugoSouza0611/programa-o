@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Acabar com a pobreza, porém não será um país de primeiro mundo.",
-                afirmação: "afirmação",
+                afirmação: "Você tirou a fome da somália, porem ainda temos diversos paises em situações piores",
             },
             {
                 texto: "Descobrir a cura do câncer e HIV, mas uma nova doença surgirá.",
-                afirmação: "afirmação",
+                afirmação: "Parabens, você descobriu a cura de uma das piores doenças do mundo, porém se prepare uma pior esta por vir",
 
             },
         ]
@@ -24,7 +24,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Trazer uma espécie extinta, porém outra terá que ser extinta no lugar. ",
-                afirmação: "afirmação",
+                afirmação: "Escolha a especie para ser trazida devolta e escolha uma para ser extinta",
             },
             {
                 texto: "Salvar o meio ambiente mas perder alguém da sua família.",
@@ -80,7 +80,7 @@ function respostaSelecionada(pergunta) {
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Você tirou a fome da somália, porem ainda temos diversos paises em situações piores";
+    caixaPerguntas.textContent = "";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
 }

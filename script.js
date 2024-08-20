@@ -73,12 +73,12 @@ function mostraAlternativas() {
 
 function respostaSelecionada(pergunta) {
     const afirmacoes = pergunta.afirmação;
-    historiaFinal += afirmacoes + " "
+    historiaFinal += afirmacoes +" ";
     atual++;
     mostraPerguntas();
 }
 
-function mostraPerguntas() {
+function mostraPerguntas(){
     caixaPerguntas.textContent = "Você tirou a fome da somália, porem ainda temos diversos paises em situações piores";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = " ";
